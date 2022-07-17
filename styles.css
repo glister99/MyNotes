@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+
+header{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    background-color: darkgrey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    color: black;
+    font-size: 2.5em; 
+}
+
+.logo{
+    margin-top: 7px;
+}
+.navbar-brand{
+    padding:0;
+}
+
+/*mainNav{
+    margin-bottom: 10px;;
+}*/
+
+#navlinks ul li a{
+    font-size: 1.5em;
+}
+
+/*nav li{
+    list-style: none;
+}*/
+
+#intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-top: 30px;
+}
+.jumbotron{
+    margin-top: 30px;
+}
+
+footer{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+#signupBtn{
+    font-size: 1.5em;
+}
+
+#login,#signUp{
+    font-size: 1.2em;
+}
+
+/*for separaton on smaller screeens*/
+#notes h2{
+    margin-top: 40px;
+}
+#notes .jumbotron{
+    padding: 3px;
+    margin-bottom: auto;
+    min-height: 552px;
+}
+#submitBtn, #newBtn, #signupBtn, #loginBtn, #deleteBtn{
+    margin-top: 7px;
+    min-width: 200px;
+}
+
+/*search bar buttons*/
+/*#viewAllBtn, #searchBtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}*/
+
+#features li{
+    font-size: 1.5em;
+}
+
+/*center feature section on about page*/
+#features{
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+}
+
+/*Limit the width of forms and center*/
+#login, #signUp{
+    min-width: 450px;
+    margin: auto;
+    width: 60%;
+}
+
+/*enhance the visibility of feedback*/
+#nameFB, #pwdFB, #titleFB{
+    color: darkred;
+}
+
+@media screen and (max-width: 992px){
+    /*make "saved notes" take up less on tablet screen(sm)*/
+    #notes .jumbotron{
+        padding: 3px;
+        margin-bottom: auto;
+        min-height: 100px;
+    }
+}
+

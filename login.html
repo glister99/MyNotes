@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Login</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7cLato" rel="stylesheet">
+    
+    <link rel="icon" href="images/icon.png" />
+    
+    <!--bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+	<meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    
+    <!--jQuery CDN-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    
+    <!--bootstrap CDN-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>      
+</head>
+
+<body>
+    <header>
+        <nav id="mainNav" class="nav navbar-default">
+            <div class="container-fluid">
+                
+                <div class="navbar-header"> 
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo" alt="MyNotes" src="images/logo.png" width="185" height="40">
+                    </a>
+                </div>
+                
+                <div id="navlinks">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="about.html"><span class="glyphicon glyphicon-info-sign"></span> What it is</a></li>
+                        
+                        <li><a href="signUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+
+                        <li class="active"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul> 
+                </div>
+                
+            </div>    
+        </nav>
+    </header>
+    
+        
+        <main>
+            <div id="login" class="container-fluid">
+                <h2>Login</h2>
+                
+                <form action="notes.html">
+                    <div class="form-group">
+                        <div id="username">
+                            <label for="usr">* User Name:</label>
+                            <input type="text" class="form-control" id="usr" required>
+                        </div>
+                    
+                        <div id="password">
+                            <label for="pwd">* Password:</label>
+                            <input type="password" class="form-control" id="pwd" required>
+                        </div>    
+                    </div>
+                    
+                    <input id="loginBtn" class="btn btn-primary btn-block" type="submit" value="Login">
+                    
+                    <p class="text-center">Don't have an account yet? <a href="signUp.html">Sign Up.</a> </p>
+                </form>
+            </div>    
+        </main>
+
+        <footer>
+            <p class="text-center">&copy; 2018 My Notes.  All rights reserved.</p>
+        </footer>
+            
+    <script src="loginCheck.js"></script>
+       
+</body> 
+</html>
+
+
+        
+
